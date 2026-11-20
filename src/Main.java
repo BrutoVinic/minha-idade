@@ -2,11 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
 
-    byte idade = 11;
+    byte idade = 18;
 
     if(idade <= 10){
         System.out.println("Criança");
     }else if(idade <= 17){
         System.out.println("Adolecente");
+    }else{
+        System.out.println("Adulto");
+
     }
 }
